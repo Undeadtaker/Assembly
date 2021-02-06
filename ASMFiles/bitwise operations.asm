@@ -18,7 +18,7 @@ main proc
     xor ah, bh             ; performing xor bitwise operation aka real or, resulting in 11110000b
     
     mov ah, 10101100
-    nand ah, bh            ; performing not bitwise, thus getting 01010011b
+    not ah, bh            ; performing not bitwise, thus getting 01010011b
     
     nop
     nop
